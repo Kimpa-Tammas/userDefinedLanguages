@@ -1017,6 +1017,18 @@ hours is zero.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llAdjustDamage" func="yes">
+			<Overload retVal="void" descr="The llAdjustDamage modifies the amount of damage that will be
+applied by the current on_damage event after it has completed processing.
+
+* integer number: The index of the damage event to be modified.
+* float new_damage: A new damage value to be applied or distributed after
+on_damage processing.">
+				<Param name="integer number" />
+				<Param name="float new_damage" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llAdjustSoundVolume" func="yes">
 			<Overload retVal="void" descr="Adjusts volume of attached sound.
 
@@ -1216,6 +1228,20 @@ Returns a list made by parsing src, a string of comma separated values.
 To convert a list into a comma-separated string use llList2CSV.
 Do not confuse this function with the CSV format, it is not the CSV format.">
 				<Param name="string src" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llDamage" func="yes">
+			<Overload retVal="void" descr="This function delivers damage to tasks and agent in the same
+region.
+
+* key target: The key for the task or avatar that will receive damage.
+* float damage: The amount of damage to deliver to the targeted task or avatar.
+* integer damage_type: The type of damage to deliver to the targeted task or
+avatar.">
+				<Param name="key target" />
+				<Param name="float damage" />
+				<Param name="integer damage_type" />
 			</Overload>
 		</KeyWord>
 
@@ -1433,6 +1459,19 @@ are removed.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llDerezObject" func="yes">
+			<Overload retVal="integer" descr="Derezzes an object previously rezzed from within the object
+containing the script.
+
+Returns an integer Returns success or failure.
+
+* key id: The ID of an object in the region.
+* integer flag: Deletion options.">
+				<Param name="key id" />
+				<Param name="integer flag" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llDetachFromAvatar" func="yes">
 			<Overload retVal="void" descr="Detach object from avatar.
 
@@ -1476,7 +1515,7 @@ valid sensed object or avatar.">
 categories of events only.">
 				<Param name="integer index" />
 			</Overload>
-		</KeyWord>
+		</KeyWord>>
 		<KeyWord name="llDetectedName" func="yes">
 			<Overload retVal="string" descr="Returns a string that is the name of the detected item.
 
@@ -1502,6 +1541,17 @@ detected object number.
 index does not support negative indexes. Returns ZERO_VECTOR if index is not
 valid sensed object.">
 				<Param name="integer index" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llDetectedRezzer" func="yes">
+			<Overload retVal="key" descr="Returns a key that is the UUID of the object or avatar that rezzed
+the detected object number.
+* integer number: Index of detection information
+
+number does not support negative indexes. Returns an empty key if number does
+not correspond to a valid sensed object or avatar.">
+				<Param name="integer number" />
 			</Overload>
 		</KeyWord>
 
@@ -2118,6 +2168,16 @@ and with-in the first 30 seconds after the http_request event is queued.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llGetHTTPHeader" func="yes">
+			<Overload retVal="float" descr="Returns the current health of an avatar or object in the region.
+
+Returns a float.
+
+* key id: The ID of an agent or object in the region.">
+				<Param name="key id" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llGetInventoryCreator" func="yes">
 			<Overload retVal="key" descr="Returns a key of the creator of the inventory item.">
 				<Param name="string item" />
@@ -2183,6 +2243,15 @@ generated), making this function ideal for testing the existence of inventory.">
 		<KeyWord name="llGetLandOwnerAt" func="yes">
 			<Overload retVal="key" descr="Returns a key that is the land owner at pos.">
 				<Param name="vector pos" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llGetLinkKey" func="yes">
+			<Overload retVal="key" descr="Returns the key of the linked prim link.
+
+* integer link: Link number (0: unlinked, 1: root prim, >1: child prims and
+seated avatars) or a LINK_* flag">
+				<Param name="integer link" />
 			</Overload>
 		</KeyWord>
 
@@ -2647,12 +2716,20 @@ is running on (same as string in viewer Help dialog)." />
 		<KeyWord name="llGetStartParameter" func="yes">
 			<Overload retVal="integer" descr="Returns an integer that is the script start/rez parameter.
 
-- If the script was loaded with llRemoteLoadScriptPin then that start parameter
+* If the script was loaded with llRemoteLoadScriptPin then that start parameter
 is returned.
-- If the containing object was rezzed by llRezObject or llRezAtRoot then the
+* If the containing object was rezzed by llRezObject or llRezAtRoot then the
 return is the on_rez parameter.
-- If the containing object was manually rezzed, by dragging from inventory, the
+* If the containing object was manually rezzed, by dragging from inventory, the
 start parameter is 0." />
+		</KeyWord>
+
+		<KeyWord name="llGetStartString" func="yes">
+			<Overload retVal="string" descr="Returns a string that was passed to the object on rez with
+llRezObjectWithParams.
+
+If the containing object was manually rezzed, by dragging from inventory,
+the start string is blank." />
 		</KeyWord>
 
 		<KeyWord name="llGetStaticPath" func="yes">
