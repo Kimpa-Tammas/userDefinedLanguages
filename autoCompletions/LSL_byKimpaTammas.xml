@@ -1441,6 +1441,17 @@ with llRequestPermissions and it must be granted by the owner. The detached
 object remains in the user's inventory." />
 		</KeyWord>
 
+		<KeyWord name="llDetectedDamage" func="yes">
+			<Overload retVal="list" descr="Returns a list containing pending damage information.
+
+* integer number
+
+Returns an empty list if number does not relate to a valid damage source or if called from a handler other
+than on_damage.">
+				<Param name="integer number" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llDetectedGrab" func="yes">
 			<Overload retVal="vector" descr="Returns a vector that is the grab offset of the user touching the
 object; only works in the touch event.
