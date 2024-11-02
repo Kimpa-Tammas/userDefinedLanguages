@@ -623,6 +623,7 @@
 			<KeyWord name="REVERSE" func="no" />
 			<KeyWord name="REZ_ACCEL" func="no" />
 			<KeyWord name="REZ_DAMAGE" func="no" />
+			<KeyWord name="REZ_DAMAGE_TYPE" func="no" />
 			<KeyWord name="REZ_FLAGS" func="no" />
 			<KeyWord name="REZ_FLAG_BLOCK_GRAB_OBJECT" func="no" />
 			<KeyWord name="REZ_FLAG_DIE_ON_COLLIDE" func="no" />
@@ -635,6 +636,7 @@
 			<KeyWord name="REZ_LOCK_AXES" func="no" />
 			<KeyWord name="REZ_OMEGA" func="no" />
 			<KeyWord name="REZ_PARAM" func="no" />
+			<KeyWord name="REZ_PARAM_TYPE" func="no" />
 			<KeyWord name="REZ_POS" func="no" />
 			<KeyWord name="REZ_ROT" func="no" />
 			<KeyWord name="REZ_SOUND" func="no" />
