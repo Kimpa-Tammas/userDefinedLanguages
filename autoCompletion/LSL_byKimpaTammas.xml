@@ -170,6 +170,8 @@
 		<KeyWord name="DEBUG_CHANNEL" func="no" />
 		<KeyWord name="DEG_TO_RAD" func="no" />
 		<KeyWord name="DENSITY" func="no" />
+		<KeyWord name="DEREZ_DIE" func="no" />
+		<KeyWord name="DEREZ_MAKE_TEMP" func="no" />
 		<KeyWord name="ENV_INVALID_AGENT" func="no" />
 		<KeyWord name="ENV_INVALID_RULE" func="no" />
 		<KeyWord name="ENV_NOT_EXPERIENCE" func="no" />
