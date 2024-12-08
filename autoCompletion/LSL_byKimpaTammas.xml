@@ -4623,6 +4623,17 @@ this agent as part of the experience.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llSetAgentRot" func="yes">
+			<Overload retVal="void" descr="Sets the rotation the avatar to rot.
+
+* rotation rot: Rotation for avatar.
+* integer flags: Flags to control behavior of llSetAgentRot. Not used at this
+time.">
+				<Param name="rotation rot" />
+				<Param name="integer flags" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llSetAlpha" func="yes">
 			<Overload retVal="void" descr="Sets the alpha on face
 
