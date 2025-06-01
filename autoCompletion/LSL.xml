@@ -26,6 +26,7 @@
 		<KeyWord name="AGENT_WALKING" func="no" />
 		<KeyWord name="ALL_SIDES" func="no" />
 		<KeyWord name="ANIM_ON" func="no" />
+		<KeyWord name="ATTACH_ANY_HUD" func="no" />
 		<KeyWord name="ATTACH_AVATAR_CENTER" func="no" />
 		<KeyWord name="ATTACH_BACK" func="no" />
 		<KeyWord name="ATTACH_BELLY" func="no" />
@@ -84,6 +85,7 @@
 		<KeyWord name="AVOID_CHARACTERS" func="no" />
 		<KeyWord name="AVOID_DYNAMIC_OBSTACLES" func="no" />
 		<KeyWord name="AVOID_NONE" func="no" />
+		<KeyWord name="BEACON_MAP" func="no" />
 		<KeyWord name="CAMERA_ACTIVE" func="no" />
 		<KeyWord name="CAMERA_BEHINDNESS_ANGLE" func="no" />
 		<KeyWord name="CAMERA_BEHINDNESS_LAG" func="no" />
@@ -170,6 +172,8 @@
 		<KeyWord name="DEBUG_CHANNEL" func="no" />
 		<KeyWord name="DEG_TO_RAD" func="no" />
 		<KeyWord name="DENSITY" func="no" />
+		<KeyWord name="DEREZ_DIE" func="no" />
+		<KeyWord name="DEREZ_MAKE_TEMP" func="no" />
 		<KeyWord name="ENV_INVALID_AGENT" func="no" />
 		<KeyWord name="ENV_INVALID_RULE" func="no" />
 		<KeyWord name="ENV_NOT_EXPERIENCE" func="no" />
@@ -191,6 +195,9 @@
 		<KeyWord name="ESTATE_ACCESS_BANNED_AGENT_ADD" func="no" />
 		<KeyWord name="ESTATE_ACCESS_BANNED_AGENT_REMOVE" func="no" />
 		<KeyWord name="FALSE" func="no" />
+		<KeyWord name="FILTER_FLAGS" func="no" />
+		<KeyWord name="FILTER_FLAG_HUDS" func="no" />
+		<KeyWord name="FILTER_INCLUDE" func="no" />
 		<KeyWord name="FORCE_DIRECT_PATH" func="no" />
 		<KeyWord name="FRICTION" func="no" />
 		<KeyWord name="GCNP_RADIUS" func="no" />
@@ -200,6 +207,7 @@
 		<KeyWord name="HTTP_BODY_MAXLENGTH" func="no" />
 		<KeyWord name="HTTP_BODY_TRUNCATED" func="no" />
 		<KeyWord name="HTTP_CUSTOM_HEADER" func="no" />
+		<KeyWord name="HTTP_EXTENDED_ERROR" func="no" />
 		<KeyWord name="HTTP_METHOD" func="no" />
 		<KeyWord name="HTTP_MIMETYPE" func="no" />
 		<KeyWord name="HTTP_PRAGMA_NO_CACHE" func="no" />
@@ -272,27 +280,37 @@
 		<KeyWord name="LIST_STAT_SUM_SQUARES" func="no" />
 		<KeyWord name="LOOP" func="no" />
 		<KeyWord name="MASK_BASE" func="no" />
+		<KeyWord name="MASK_COMBINED" func="no" />
 		<KeyWord name="MASK_EVERYONE" func="no" />
 		<KeyWord name="MASK_GROUP" func="no" />
 		<KeyWord name="MASK_NEXT" func="no" />
 		<KeyWord name="MASK_OWNER" func="no" />
 		<KeyWord name="NAK" func="no" />
 		<KeyWord name="NULL_KEY" func="no" />
+		<KeyWord name="OBJECT_ACCOUNT_LEVEL" func="no" />
+		<KeyWord name="OBJECT_ANIMATED_COUNT" func="no" />
+		<KeyWord name="OBJECT_ANIMATED_SLOTS_AVAILABLE" func="no" />
 		<KeyWord name="OBJECT_ATTACHED_POINT" func="no" />
 		<KeyWord name="OBJECT_ATTACHED_SLOTS_AVAILABLE" func="no" />
 		<KeyWord name="OBJECT_BODY_SHAPE_TYPE" func="no" />
 		<KeyWord name="OBJECT_CHARACTER_TIME" func="no" />
 		<KeyWord name="OBJECT_CLICK_ACTION" func="no" />
+		<KeyWord name="OBJECT_CREATION_TIME" func="no" />
 		<KeyWord name="OBJECT_CREATOR" func="no" />
 		<KeyWord name="OBJECT_DESC" func="no" />
 		<KeyWord name="OBJECT_GROUP" func="no" />
 		<KeyWord name="OBJECT_GROUP_TAG" func="no" />
 		<KeyWord name="OBJECT_HOVER_HEIGT" func="no" />
 		<KeyWord name="OBJECT_LAST_OWNER_ID" func="no" />
+		<KeyWord name="OBJECT_LINK_NUMBER" func="no" />
+		<KeyWord name="OBJECT_MASS" func="no" />
+		<KeyWord name="OBJECT_MATERIAL" func="no" />
 		<KeyWord name="OBJECT_NAME" func="no" />
 		<KeyWord name="OBJECT_OMEGA" func="no" />
 		<KeyWord name="OBJECT_OWNER" func="no" />
 		<KeyWord name="OBJECT_PATHFINDING_TYPE" func="no" />
+		<KeyWord name="OBJECT_PERMS" func="no" />
+		<KeyWord name="OBJECT_PERMS_COMBINED" func="no" />
 		<KeyWord name="OBJECT_PHANTOM" func="no" />
 		<KeyWord name="OBJECT_PHYSICS" func="no" />
 		<KeyWord name="OBJECT_PHYSICS_COST" func="no" />
@@ -304,15 +322,21 @@
 		<KeyWord name="OBJECT_RETURN_PARCEL_OWNER" func="no" />
 		<KeyWord name="OBJECT_RETURN_REGION" func="no" />
 		<KeyWord name="OBJECT_REZZER_KEY" func="no" />
+		<KeyWord name="OBJECT_REZ_TIME" func="no" />
 		<KeyWord name="OBJECT_ROOT" func="no" />
 		<KeyWord name="OBJECT_ROT" func="no" />
 		<KeyWord name="OBJECT_RUNNING_SCRIPT_COUNT" func="no" />
+		<KeyWord name="OBJECT_SCALE" func="no" />
 		<KeyWord name="OBJECT_SCRIPT_MEMORY" func="no" />
 		<KeyWord name="OBJECT_SCRIPT_TIME" func="no" />
 		<KeyWord name="OBJECT_SERVER_COST" func="no" />
 		<KeyWord name="OBJECT_STREAMING_COST" func="no" />
+		<KeyWord name="OBJECT_SIT_COUNT" func="no" />
 		<KeyWord name="OBJECT_TEMP_ATTACHED" func="no" />
 		<KeyWord name="OBJECT_TEMP_ON_REZ" func="no" />
+		<KeyWord name="OBJECT_TEXT" func="no" />
+		<KeyWord name="OBJECT_TEXT_ALPHA" func="no" />
+		<KeyWord name="OBJECT_TEXT_COLOR" func="no" />
 		<KeyWord name="OBJECT_TOTAL_INVENTORY_COUNT" func="no" />
 		<KeyWord name="OBJECT_TOTAL_SCRIPT_COUNT" func="no" />
 		<KeyWord name="OBJECT_UNKNOWN_DETAIL" func="no" />
@@ -423,6 +447,7 @@
 		<KeyWord name="PRIM_BUMP_WOOD" func="no" />
 		<KeyWord name="PRIM_CLICK_ACTION" func="no" />
 		<KeyWord name="PRIM_COLOR" func="no" />
+		<KeyWord name="PRIM_DAMAGE" func="no" />
 		<KeyWord name="PRIM_DESC" func="no" />
 		<KeyWord name="PRIM_FLEXIBLE" func="no" />
 		<KeyWord name="PRIM_FULLBRIGHT" func="no" />
@@ -431,6 +456,7 @@
 		<KeyWord name="PRIM_GLTF_EMISSIVE" func="no" />
 		<KeyWord name="PRIM_GLTF_METALLIC_ROUGHNESS" func="no" />
 		<KeyWord name="PRIM_GLTF_NORMAL" func="no" />
+		<KeyWord name="PRIM_HEALTH" func="no" />
 		<KeyWord name="PRIM_HOLE_CIRCLE" func="no" />
 		<KeyWord name="PRIM_HOLE_DEFAULT" func="no" />
 		<KeyWord name="PRIM_HOLE_SQUARE" func="no" />
@@ -501,6 +527,7 @@
 		<KeyWord name="PRIM_SHINY_LOW" func="no" />
 		<KeyWord name="PRIM_SHINY_MEDIUM" func="no" />
 		<KeyWord name="PRIM_SHINY_NONE" func="no" />
+		<KeyWord name="PRIM_SIT_FLAGS" func="no" />
 		<KeyWord name="PRIM_SIT_TARGET" func="no" />
 		<KeyWord name="PRIM_SIZE" func="no" />
 		<KeyWord name="PRIM_SLICE" func="no" />
@@ -620,6 +647,7 @@
 		<KeyWord name="REVERSE" func="no" />
 		<KeyWord name="REZ_ACCEL" func="no" />
 		<KeyWord name="REZ_DAMAGE" func="no" />
+		<KeyWord name="REZ_DAMAGE_TYPE" func="no" />
 		<KeyWord name="REZ_FLAGS" func="no" />
 		<KeyWord name="REZ_FLAG_BLOCK_GRAB_OBJECT" func="no" />
 		<KeyWord name="REZ_FLAG_DIE_ON_COLLIDE" func="no" />
@@ -632,6 +660,7 @@
 		<KeyWord name="REZ_LOCK_AXES" func="no" />
 		<KeyWord name="REZ_OMEGA" func="no" />
 		<KeyWord name="REZ_PARAM" func="no" />
+		<KeyWord name="REZ_PARAM_STRING" func="no" />
 		<KeyWord name="REZ_POS" func="no" />
 		<KeyWord name="REZ_ROT" func="no" />
 		<KeyWord name="REZ_SOUND" func="no" />
@@ -694,6 +723,26 @@
 		<KeyWord name="STRING_TRIM_HEAD" func="no" />
 		<KeyWord name="STRING_TRIM_TAIL" func="no" />
 		<KeyWord name="TARGETED_EMAIL_OBJECT_OWNER" func="no" />
+		<KeyWord name="TERRAIN_DETAIL_1" func="no" />
+		<KeyWord name="TERRAIN_DETAIL_2" func="no" />
+		<KeyWord name="TERRAIN_DETAIL_3" func="no" />
+		<KeyWord name="TERRAIN_DETAIL_4" func="no" />
+		<KeyWord name="TERRAIN_HEIGHT_RANGE_NE" func="no" />
+		<KeyWord name="TERRAIN_HEIGHT_RANGE_NW" func="no" />
+		<KeyWord name="TERRAIN_HEIGHT_RANGE_SE" func="no" />
+		<KeyWord name="TERRAIN_HEIGHT_RANGE_SW" func="no" />
+		<KeyWord name="TERRAIN_PBR_OFFSET_1" func="no" />
+		<KeyWord name="TERRAIN_PBR_OFFSET_2" func="no" />
+		<KeyWord name="TERRAIN_PBR_OFFSET_3" func="no" />
+		<KeyWord name="TERRAIN_PBR_OFFSET_4" func="no" />
+		<KeyWord name="TERRAIN_PBR_ROTATION_1" func="no" />
+		<KeyWord name="TERRAIN_PBR_ROTATION_2" func="no" />
+		<KeyWord name="TERRAIN_PBR_ROTATION_3" func="no" />
+		<KeyWord name="TERRAIN_PBR_ROTATION_4" func="no" />
+		<KeyWord name="TERRAIN_PBR_SCALE_1" func="no" />
+		<KeyWord name="TERRAIN_PBR_SCALE_2" func="no" />
+		<KeyWord name="TERRAIN_PBR_SCALE_3" func="no" />
+		<KeyWord name="TERRAIN_PBR_SCALE_4" func="no" />
 		<KeyWord name="TEXTURE_BLANK" func="no" />
 		<KeyWord name="TEXTURE_DEFAULT" func="no" />
 		<KeyWord name="TEXTURE_MEDIA" func="no" />
@@ -702,6 +751,17 @@
 		<KeyWord name="TOUCH_INVALID_FACE" func="no" />
 		<KeyWord name="TOUCH_INVALID_TEXCOORD" func="no" />
 		<KeyWord name="TOUCH_INVALID_VECTOR" func="no" />
+		<KeyWord name="TRANSFER_BAD_OPTS" func="no" />
+		<KeyWord name="TRANSFER_BAD_ROOT" func="no" />
+		<KeyWord name="TRANSFER_FLAG_COPY" func="no" />
+		<KeyWord name="TRANSFER_FLAG_RESERVED" func="no" />
+		<KeyWord name="TRANSFER_FLAG_TAKE" func="no" />
+		<KeyWord name="TRANSFER_NO_ATTACHMENT" func="no" />
+		<KeyWord name="TRANSFER_NO_ITEMS" func="no" />
+		<KeyWord name="TRANSFER_NO_PERMS" func="no" />
+		<KeyWord name="TRANSFER_NO_TARGET" func="no" />
+		<KeyWord name="TRANSFER_OK" func="no" />
+		<KeyWord name="TRANSFER_THROTTLE" func="no" />
 		<KeyWord name="TRAVERSAL_TYPE" func="no" />
 		<KeyWord name="TRAVERSAL_TYPE_FAST" func="no" />
 		<KeyWord name="TRAVERSAL_TYPE_NONE" func="no" />
@@ -727,6 +787,7 @@
 		<KeyWord name="VEHICLE_BANKING_MIX" func="no" />
 		<KeyWord name="VEHICLE_BANKING_TIMESCALE" func="no" />
 		<KeyWord name="VEHICLE_BUOYANCY" func="no" />
+		<KeyWord name="VEHICLE_FLAG_BLOCK_VEHICLE_INTERFERENCE" func="no" />
 		<KeyWord name="VEHICLE_FLAG_CAMERA_DECOUPLED" func="no" />
 		<KeyWord name="VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT" func="no" />
 		<KeyWord name="VEHICLE_FLAG_HOVER_TERRAIN_ONLY" func="no" />
@@ -1017,6 +1078,18 @@ hours is zero.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llAdjustDamage" func="yes">
+			<Overload retVal="void" descr="The llAdjustDamage modifies the amount of damage that will be
+applied by the current on_damage event after it has completed processing.
+
+* integer number: The index of the damage event to be modified.
+* float new_damage: A new damage value to be applied or distributed after
+on_damage processing.">
+				<Param name="integer number" />
+				<Param name="float new_damage" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llAdjustSoundVolume" func="yes">
 			<Overload retVal="void" descr="Adjusts volume of attached sound.
 
@@ -1216,6 +1289,20 @@ Returns a list made by parsing src, a string of comma separated values.
 To convert a list into a comma-separated string use llList2CSV.
 Do not confuse this function with the CSV format, it is not the CSV format.">
 				<Param name="string src" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llDamage" func="yes">
+			<Overload retVal="void" descr="This function delivers damage to tasks and agent in the same
+region.
+
+* key target: The key for the task or avatar that will receive damage.
+* float damage: The amount of damage to deliver to the targeted task or avatar.
+* integer damage_type: The type of damage to deliver to the targeted task or
+avatar.">
+				<Param name="key target" />
+				<Param name="float damage" />
+				<Param name="integer damage_type" />
 			</Overload>
 		</KeyWord>
 
@@ -1433,12 +1520,36 @@ are removed.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llDerezObject" func="yes">
+			<Overload retVal="integer" descr="Derezzes an object previously rezzed from within the object
+containing the script.
+
+Returns an integer Returns success or failure.
+
+* key id: The ID of an object in the region.
+* integer flag: Deletion options.">
+				<Param name="key id" />
+				<Param name="integer flag" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llDetachFromAvatar" func="yes">
 			<Overload retVal="void" descr="Detach object from avatar.
 
 To run this function the script must request the PERMISSION_ATTACH permission
 with llRequestPermissions and it must be granted by the owner. The detached
 object remains in the user's inventory." />
+		</KeyWord>
+
+		<KeyWord name="llDetectedDamage" func="yes">
+			<Overload retVal="list" descr="Returns a list containing pending damage information.
+
+* integer number
+
+Returns an empty list if number does not relate to a valid damage source or if called from a handler other
+than on_damage.">
+				<Param name="integer number" />
+			</Overload>
 		</KeyWord>
 
 		<KeyWord name="llDetectedGrab" func="yes">
@@ -1476,7 +1587,7 @@ valid sensed object or avatar.">
 categories of events only.">
 				<Param name="integer index" />
 			</Overload>
-		</KeyWord>
+		</KeyWord>>
 		<KeyWord name="llDetectedName" func="yes">
 			<Overload retVal="string" descr="Returns a string that is the name of the detected item.
 
@@ -1502,6 +1613,17 @@ detected object number.
 index does not support negative indexes. Returns ZERO_VECTOR if index is not
 valid sensed object.">
 				<Param name="integer index" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llDetectedRezzer" func="yes">
+			<Overload retVal="key" descr="Returns a key that is the UUID of the object or avatar that rezzed
+the detected object number.
+* integer number: Index of detection information
+
+number does not support negative indexes. Returns an empty key if number does
+not correspond to a valid sensed object or avatar.">
+				<Param name="integer number" />
 			</Overload>
 		</KeyWord>
 
@@ -1768,6 +1890,29 @@ This function is similar to functions found in many other languages.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llFindNotecardTextSync" func="yes">
+			<Overload retVal="list" descr="Returns a list of lines and columns where the search pattern is
+found in the notecard. Returns the list containing a list of integers containing the
+locations of the found text.
+
+* string name: A notecard in the inventory of the prim this script is in or a UUID
+of a notecard
+* string pattern: The regex pattern to search for
+* integer start: The number of match results to skip before returning matches.
+0 will begin at the first match.
+* integer count: The maximum number of search results to return
+* list options: A list of options to pass into the search (unused at this time,
+should be [])
+
+Returns a list containing only NAK if the notecard is not cached.">
+				<Param name="string name" />
+				<Param name="string pattern" />
+				<Param name="integer start" />
+				<Param name="integer count" />
+				<Param name="list options" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llFleeFrom" func="yes">
 			<Overload retVal="void" descr="Directs a character to keep a specific distance from a specific
 position in the region or adjacent regions.">
@@ -1928,6 +2073,21 @@ If avatar is a child agent, [NOT ON REGION] is returned.
 If avatar is not a main agent and not a child agent or not an agent at all,
 [NOT FOUND] is returned.">
 				<Param name="key avatar" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llGetAttachedListFiltered" func="yes">
+			<Overload retVal="list" descr="Returns a list of object keys corresponding to public attachments
+worn by an avatar in the order they were attached.
+
+* key avatar: avatar UUID that is in the same region
+* list: options
+
+If avatar is a child agent, ['NOT ON REGION'] is returned.
+If avatar is not a main agent and not a child agent or not an agent at all,
+['NOT FOUND'] is returned.">
+				<Param name="key avatar" />
+				<Param name="list options" />
 			</Overload>
 		</KeyWord>
 
@@ -2118,6 +2278,16 @@ and with-in the first 30 seconds after the http_request event is queued.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llGetHealth" func="yes">
+			<Overload retVal="float" descr="Returns the current health of an avatar or object in the region.
+
+Returns a float.
+
+* key id: The ID of an agent or object in the region.">
+				<Param name="key id" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llGetInventoryCreator" func="yes">
 			<Overload retVal="key" descr="Returns a key of the creator of the inventory item.">
 				<Param name="string item" />
@@ -2187,7 +2357,10 @@ generated), making this function ideal for testing the existence of inventory.">
 		</KeyWord>
 
 		<KeyWord name="llGetLinkKey" func="yes">
-			<Overload retVal="key" descr="Returns the key of the linked prim link">
+			<Overload retVal="key" descr="Returns the key of the linked prim link.
+
+* integer link: Link number (0: unlinked, 1: root prim, >1: child prims and
+seated avatars) or a LINK_* flag">
 				<Param name="integer link" />
 			</Overload>
 		</KeyWord>
@@ -2647,12 +2820,20 @@ is running on (same as string in viewer Help dialog)." />
 		<KeyWord name="llGetStartParameter" func="yes">
 			<Overload retVal="integer" descr="Returns an integer that is the script start/rez parameter.
 
-- If the script was loaded with llRemoteLoadScriptPin then that start parameter
+* If the script was loaded with llRemoteLoadScriptPin then that start parameter
 is returned.
-- If the containing object was rezzed by llRezObject or llRezAtRoot then the
+* If the containing object was rezzed by llRezObject or llRezAtRoot then the
 return is the on_rez parameter.
-- If the containing object was manually rezzed, by dragging from inventory, the
+* If the containing object was manually rezzed, by dragging from inventory, the
 start parameter is 0." />
+		</KeyWord>
+
+		<KeyWord name="llGetStartString" func="yes">
+			<Overload retVal="string" descr="Returns a string that was passed to the object on rez with
+llRezObjectWithParams.
+
+If the containing object was manually rezzed, by dragging from inventory,
+the start string is blank." />
 		</KeyWord>
 
 		<KeyWord name="llGetStaticPath" func="yes">
@@ -2964,6 +3145,17 @@ the owner of the prim the script is in are friends, otherwise FALSE.
 
 * key agent_id">
 				<Param name="key agent_id" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llIsLinkGLTFMaterial" func="yes">
+			<Overload retVal="integer" descr="Returns a boolean (an integer) that is TRUE if the material
+is PBR and FALSE if it is Blinn-Phong diffuse texture on face.
+
+* integer link: Link to inspect for PBR, may be LINK_THIS or LINK_ROOT
+* integer face: Face to examine for PBR, or ALL_SIDES">
+				<Param name="integer link" />
+				<Param name="integer face" />
 			</Overload>
 		</KeyWord>
 
@@ -3433,7 +3625,7 @@ and will return -1. Reverse indexing is also supported. Using an instance of -1
 return -1. If test is found at the last index in src the positive index is
 returned (5th entry of 5 returns 4).">
 				<Param name="list src" />
- 				<Param name="list test" />
+				<Param name="list test" />
 				<Param name="integer instance" />
 			</Overload>
 		</KeyWord>
@@ -3643,6 +3835,19 @@ But if the owner grants PERMISSION_SILENT_ESTATE_MANAGEMENT to the script, the
 owner will not be notified.">
 				<Param name="integer action" />
 				<Param name="key avatar" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llMapBeacon" func="yes">
+			<Overload retVal="void" descr="Asks the viewer to create a beacon for the user and optionally
+opens the world map centered on the location.
+
+* string region_name: Region name
+* vector pos: position in region coordinates
+* list: options">
+				<Param name="string region_name" />
+				<Param name="vector pos" />
+				<Param name="list options" />
 			</Overload>
 		</KeyWord>
 
@@ -4623,6 +4828,17 @@ this agent as part of the experience.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llSetAgentRot" func="yes">
+			<Overload retVal="void" descr="Sets the rotation the avatar to rot.
+
+* rotation rot: Rotation for avatar.
+* integer flags: Flags to control behavior of llSetAgentRot. Not used at this
+time.">
+				<Param name="rotation rot" />
+				<Param name="integer flags" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llSetAlpha" func="yes">
 			<Overload retVal="void" descr="Sets the alpha on face
 
@@ -4772,6 +4988,15 @@ Continuous force. llApplyImpulse has instantaneous push.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llSetGroundTexture" func="yes">
+			<Overload retVal="void" descr="Changes the textures used to paint the terrain of a region.
+The owner of the script must be able to manage the estate.
+
+* list changes: List of changes to apply to ground textures on the region.">
+				<Param name="list changes" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llSetHoverHeight" func="yes">
 			<Overload retVal="void" descr="Critically damps to a height above the ground (or water) in tau
 seconds.
@@ -4825,6 +5050,20 @@ If face is ALL_SIDES then the function works on all sides.">
 				<Param name="integer link" />
 				<Param name="vector color" />
 				<Param name="integer face" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llSetLinkGLTFOverrides" func="yes">
+			<Overload retVal="void" descr="Sets or removes individual overrides applied to a PBR texture on
+a face.
+
+* integer link: Link number (0: unlinked, 1: root prim, &gt;1: child prims and
+seated avatars) or a LINK_* flag
+* integer face: Face number or ALL_SIDES
+* list params: List of overrides and override values. ">
+				<Param name="integer link" />
+				<Param name="integer face" />
+				<Param name="list params" />
 			</Overload>
 		</KeyWord>
 
@@ -5538,6 +5777,19 @@ going to use the return value or the resulting transaction_result event consider
 using llGiveMoney instead of this function.">
 				<Param name="key destination" />
 				<Param name="integer amount" />
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="llTransferOwnership" func="yes">
+			<Overload retVal="void" descr="Transfer ownership of the object containing this script to
+agent_id.
+
+* key agent_id: Agent ID for the avatar to receive ownership of the object
+* integer flags: Flags controlling transfer behavior.
+* list options: Options applied to the ownership transfer. No options are defined at this time.">
+				<Param name="key agent_id" />
+				<Param name="integer flags" />
+				<Param name="list options" />
 			</Overload>
 		</KeyWord>
 
