@@ -207,6 +207,7 @@
 		<KeyWord name="HTTP_BODY_MAXLENGTH" func="no" />
 		<KeyWord name="HTTP_BODY_TRUNCATED" func="no" />
 		<KeyWord name="HTTP_CUSTOM_HEADER" func="no" />
+		<KeyWord name="HTTP_EXTENDED_ERROR" func="no" />
 		<KeyWord name="HTTP_METHOD" func="no" />
 		<KeyWord name="HTTP_MIMETYPE" func="no" />
 		<KeyWord name="HTTP_PRAGMA_NO_CACHE" func="no" />
