@@ -4951,6 +4951,17 @@ name of the child prim and not the root prim.">
 			</Overload>
 		</KeyWord>
 
+		<KeyWord name="llSetParcelForSale" func="yes">
+			<Overload retVal="integer" descr="Sets the parcel the object is on for sale. ForSale is a 
+boolean, if TRUE the parcel is put up for sale. Options is a list of options
+to set for the sale, such as price, authorized buyer, and whether to include
+objects on the parcel. Setting ForSale to FALSE will remove the parcel from
+ sale and clear any options that were set.">
+				<Param name="integer ForSale" />
+				<Param name="list Options" />
+			</Overload>
+		</KeyWord>
+
 		<KeyWord name="llSetParcelMusicURL" func="yes">
 			<Overload retVal="void" descr="Sets the streaming audio URL for the parcel object is on
 
@@ -5846,3 +5857,4 @@ until the prim/object is stopped being clicked (triggers multiple times).">
 		<KeyWord name="while" />
 	</AutoComplete>
 </NotepadPlus>
+
